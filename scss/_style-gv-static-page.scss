@@ -1,0 +1,23 @@
+.wrp-line-br {
+    @extend %pos-cent-marg;
+    max-width: 1440px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .line-br {
+    border-top: $line-grey-col;
+    margin-bottom: 40px;
+  }
+
+  .text-main-br {
+    max-width: 1116px;
+    @extend %pos-cent-marg;
+    @include main-text;
+  }
+
+  .text-top-br {
+    @include main-text;
+    font-size: 36px;
+    font-weight: 400;
+  }

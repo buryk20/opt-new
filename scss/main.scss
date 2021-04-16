@@ -3,18 +3,8 @@
 @import "_banner_top.scss";
 @import "_input_form.scss";
 @import "_normalize.scss";
-.text-main-in-min-br {
-  max-width: 1116px;
-  @extend %pos-cent-marg;
-  @include main-text;
-}
+@import "_style-gv-static-page.scss";
 
-.wrp-line-in-min-br {
-  @extend %pos-cent-marg;
-  max-width: 1440px;
-  padding-top: 40px;
-  margin-bottom: 40px;
-}
 
 .line-in-min-br {
   border-top: $line-grey-col;
