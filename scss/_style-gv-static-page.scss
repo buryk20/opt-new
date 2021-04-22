@@ -23,7 +23,7 @@
 }
 
 .consultation-br {
-  padding-top: 81px;
+  margin-bottom: 40px;
   padding-left: 16px;
   padding-right: 16px;
   @include main-text;
@@ -37,10 +37,10 @@
 .consultation-br > p > a {
   color: $color-main;
   text-decoration: underline;
-} 
+}
 .consultation-br > p > a > img {
   display: inherit;
-} 
+}
 
 .wrp-advantages-br {
   @extend %pos-cent-marg;

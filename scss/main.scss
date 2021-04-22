@@ -5,6 +5,16 @@
 @import "_normalize.scss";
 @import "_style-gv-static-page.scss";
 
+.advantages-icon-br > .box-adv-br {
+  min-height: 266px;
+}
+
+.coop-wrp-opt-new > .sale-btm-br {
+  max-width: 336px;
+  padding: 22px 20px;
+  font-size: 36px;
+}
+
 .line-in-min-br {
   border-top: $line-grey-col;
   margin-bottom: 40px;
@@ -66,7 +76,7 @@
 }
 
 .sows-wrp-opt-new {
-  margin-bottom: 40px;
+  margin-bottom: 173px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   z-index: 4;
@@ -107,6 +117,16 @@
   font-size: 18px;
   line-height: 1.4;
   z-index: 5;
+}
+
+.sows-img-opt-new {
+  position: relative;
+}
+
+.sows-img-part-smol {
+  position: absolute;
+  right: 0;
+  bottom: -200px;
 }
 
 .sows-text-opt-new > img {
@@ -170,6 +190,9 @@
   .sows-text-opt-new > img {
     display: none;
   }
+  .sows-img-part-smol {
+    display: none;
+  }
 }
 
 @media (max-width: 1034px) {
@@ -212,6 +235,11 @@
   }
   .text-main-br {
     padding: 0 16px;
+  }
+  .coop-wrp-opt-new > .sale-btm-br {
+    max-width: 173px;
+    padding: 8px 13px;
+    font-size: 18px;
   }
 }
 
